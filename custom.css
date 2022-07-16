@@ -92,9 +92,9 @@ span.at {
   background: none;
 }
 #shoutbox a[href$="member.php?action=profile&uid=707074"]>span {
-  color: #00fd11;
-  -webkit-text-fill-color: #00fd11;
-  text-shadow: 0px 0px 3px #00fd11;
+  color: #13e305;
+  -webkit-text-fill-color: #13e305;
+  text-shadow: 0px 0px 3px #13e305;
   background: url(https://i.imgur.com/uclvf1C.gif);
   background-size: 100%;
   font-weight: bold;
