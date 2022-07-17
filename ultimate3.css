@@ -139,8 +139,8 @@ span.at {
   background-size: 100%;
 }
 
-/* TEST */
-#shoutbox a[href$="member.php?action=profile&uid=1871965"]>span {
+/* ROYALTY */
+#shoutbox a[href$="member.php?action=profile&uid=2"]>span {
   all: initial;
   
   font-family: 'Roboto',sans-serif;
@@ -158,3 +158,17 @@ span.at {
     -webkit-text-fill-color: transparent;
 }
 
+/* The Almighty */
+#shoutbox a[href$="member.php?action=profile&uid=1871965"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  -webkit-animation: hue 8s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://static.cracked.to/images/bg1.gif),-webkit-linear-gradient(92deg,#f35626,#feab3a);
+    font-weight: bold !important;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 18%);
+}
