@@ -95,7 +95,7 @@ span.at {
   
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
-  background-size:300%, 600% 600%;
+  background-size:400%, 600% 600%;
   font-weight:bold;
   -webkit-animation:AnimationName 4s ease infinite;
   -moz-animation:AnimationName 4s ease infinite;
@@ -108,10 +108,10 @@ span.at {
 }
 
 #shoutbox a[href$="member.php?action=profile&uid=3227417"]>span {
-  all : initial;
+  color : inherit;
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
-  background-size:700%, 600% 600%;
+  background-size:500%, 600% 600%;
   font-weight:bold;
   -webkit-animation:AnimationName 4s ease infinite;
   -moz-animation:AnimationName 4s ease infinite;
