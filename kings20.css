@@ -91,11 +91,15 @@ span.at {
   color: inherit;
   background: none;
 }
+
 #shoutbox a[href$="member.php?action=profile&uid=707074"]>span {
+  all: initial;
   
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
-  background-size:200%, 600% 600%;
+  background-size:250%, 600% 600%;
   font-weight:bold;
   -webkit-animation:AnimationName 4s ease infinite;
   -moz-animation:AnimationName 4s ease infinite;
@@ -112,8 +116,6 @@ span.at {
   
   font-family: 'Roboto',sans-serif;
   font-size: 13px;
-
-
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
   background-size:250%, 600% 600%;
@@ -127,12 +129,3 @@ span.at {
   -webkit-text-fill-color:transparent;
   border-bottom:1px dotted #ffd700
 }
-
-#shoutbox a[href$="member.php?action=profile&uid=2734070"]>span {
-  color: #fa3300;
-  -webkit-text-fill-color: #fa3300;
-  text-shadow: 0px 0px 3px #fa3300;
-  background: url(https://i.imgur.com/EabrU5G.gif);
-  background-size: 100%;
-}
-
