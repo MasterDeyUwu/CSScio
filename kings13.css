@@ -95,7 +95,22 @@ span.at {
   
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
-  background-size:50%, 600% 600%;
+  background-size:300%, 600% 600%;
+  font-weight:bold;
+  -webkit-animation:AnimationName 4s ease infinite;
+  -moz-animation:AnimationName 4s ease infinite;
+  animation:AnimationName 4s ease infinite;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  border-bottom:1px dotted #ffd700
+}
+
+#shoutbox a[href$="member.php?action=profile&uid=3227417"]>span {
+  position:relative;
+  background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
+  background-size:300%, 600% 600%;
   font-weight:bold;
   -webkit-animation:AnimationName 4s ease infinite;
   -moz-animation:AnimationName 4s ease infinite;
@@ -205,10 +220,4 @@ span.at {
   background: url(https://i.imgur.com/EabrU5G.gif);
   background-size: 100%;
 }
-#shoutbox a[href$="member.php?action=profile&uid=3227417"]>span {
-  color: #fa3300;
-  -webkit-text-fill-color: #fa3300;
-  text-shadow: 0px 0px 3px #fa3300;
-  background: url(https://i.imgur.com/EabrU5G.gif);
-  background-size: 100%;
-}
+
