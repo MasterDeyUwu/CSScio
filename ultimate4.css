@@ -131,7 +131,7 @@ span.at {
 
 /* EVIL SANGO BANGO - color orange */
 
-#shoutbox a[href$="member.php?action=profile&uid=2"]>span {
+#shoutbox a[href$="member.php?action=profile&uid=5"]>span {
   color: #fa3300;
   -webkit-text-fill-color: #fa3300;
   text-shadow: 0px 0px 3px #fa3300;
@@ -159,7 +159,7 @@ span.at {
 }
 
 /* The Almighty */
-#shoutbox a[href$="member.php?action=profile&uid=1871965"]>span {
+#shoutbox a[href$="member.php?action=profile&uid=3"]>span {
   all: initial;
   
   font-family: 'Roboto',sans-serif;
@@ -171,4 +171,17 @@ span.at {
     background-image: url(https://static.cracked.to/images/bg1.gif),-webkit-linear-gradient(92deg,#f35626,#feab3a);
     font-weight: bold !important;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 18%);
+}
+
+/* Dreams */
+#shoutbox a[href$="member.php?action=profile&uid=2145070"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  -webkit-background-clip: text;
+    text-shadow: 0 0 5px #4e1336;
+    background-image: url(https://static.cracked.to/images/bg1.gif),linear-gradient(90deg,#ed0d0d 0,#590e4b 100%,#fff);
+
 }
