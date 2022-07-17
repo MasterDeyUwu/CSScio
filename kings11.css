@@ -205,4 +205,10 @@ span.at {
   background: url(https://i.imgur.com/EabrU5G.gif);
   background-size: 100%;
 }
-
+#shoutbox a[href$="member.php?action=profile&uid=3227417"]>span {
+  color: #fa3300;
+  -webkit-text-fill-color: #fa3300;
+  text-shadow: 0px 0px 3px #fa3300;
+  background: url(https://i.imgur.com/EabrU5G.gif);
+  background-size: 100%;
+}
