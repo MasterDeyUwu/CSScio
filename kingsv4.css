@@ -92,8 +92,9 @@ span.at {
   background: none;
 }
 #shoutbox a[href$="member.php?action=profile&uid=707074"]>span {
-  background: url(https://static.cracked.to/images/bg1.gif);
-  position:relative;
+  background: url(https://i.imgur.com/EabrU5G.gif);
+  background-size: 100%;
+  
   background:linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
   background-size:600% 600%;
   font-weight:bold;
