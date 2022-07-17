@@ -174,7 +174,7 @@ span.at {
 }
 
 /* Dreams */
-#shoutbox a[href$="member.php?action=profile&uid=1718620"]>span {
+#shoutbox a[href$="member.php?action=profile&uid=999"]>span {
   all: initial;
   
   font-family: 'Roboto',sans-serif;
@@ -186,5 +186,20 @@ span.at {
   -webkit-background-clip: text;
     text-shadow: 0 0 5px #4e1336;
     background-image: url(https://static.cracked.to/images/bg1.gif),linear-gradient(90deg,#ed0d0d 0,#590e4b 100%,#fff);
+
+}
+
+/* irefunder */
+#shoutbox a[href$="member.php?action=profile&uid=2145070"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  background: url(https://static.cracked.to/images/onyx-bg.gif);
+    text-shadow: 0.5px 0.5px 5px;
+    -webkit-animation: hueanim 10s infinite linear;
+    color: #0FF;
+    font-weight: bold;
 
 }
