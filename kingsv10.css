@@ -95,7 +95,7 @@ span.at {
   
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
-  background-size:1500%, 600% 600%;
+  background-size:600%, 600% 600%;
   font-weight:bold;
   -webkit-animation:AnimationName 4s ease infinite;
   -moz-animation:AnimationName 4s ease infinite;
