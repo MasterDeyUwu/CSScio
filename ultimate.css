@@ -93,12 +93,13 @@ span.at {
 }
 
 
-
+/* KINGS */
 #shoutbox a[href$="member.php?action=profile&uid=3227417"]>span {
   all: initial;
   
   font-family: 'Roboto',sans-serif;
   font-size: 13px;
+
   position:relative;
   background:url(https://static.cracked.to/images/bg1.gif), linear-gradient(178deg, #ffd700, #ff2a00, #ffd700);
   background-size:250%, 600% 600%;
@@ -112,13 +113,12 @@ span.at {
   -webkit-text-fill-color:transparent;
   border-bottom:1px dotted #ffd700
 }
-
+/* BOSS OF THE BOSSES */
 #shoutbox a[href$="member.php?action=profile&uid=707074"]>span {
   all: initial;
   
   font-family: 'Roboto',sans-serif;
   font-size: 13px;
-
 
   font-weight: bold;
   color: #b590ff;
@@ -127,5 +127,31 @@ span.at {
   background-repeat: repeat;
   text-shadow: 1px 1px 10px #6e00ff;
   animation: particles 4s infinite,shadow 2s linear infinite;
-  background: url(https://static.cracked.io/images/onyx-bg.gif);
 }
+
+/* EVIL SANGO BANGO */
+
+#shoutbox a[href$="member.php?action=profile&uid=1871965"]>span {
+  color: #fa3300;
+  -webkit-text-fill-color: #fa3300;
+  text-shadow: 0px 0px 3px #fa3300;
+  background: url(https://i.imgur.com/EabrU5G.gif);
+  background-size: 100%;
+}
+
+/* TEST */
+/* #shoutbox a[href$="member.php?action=profile&uid=1871965"]>span {
+  all: initial;
+  
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+
+  font-weight: bold;
+  color: #b590ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: repeat;
+  text-shadow: 1px 1px 10px #6e00ff;
+  animation: particles 4s infinite,shadow 2s linear infinite;
+} */
+
